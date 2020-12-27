@@ -15,12 +15,7 @@ public:
     void displayAllStudents();
     void deleteStudent();
 
-  /*   
-    void createLibrarian();
-    void editLibrarian();
-    void displayAllLibrarians();
-    void deleteLibrarian(); 
-    */
+
 
     void showAllBooks();
     void showBook();
@@ -31,8 +26,7 @@ public:
     void showStudentInfo();
 
 	bool checkPass(std::string name, std::string password, Student& student);
-	//Student returnStudent(std::string name, std::string password);
-
+	
 	void ReturnBook(Book& book, Student& student);
 	void BorrowBook(Book& book, Student& student);
 };
